@@ -1,23 +1,8 @@
  <head>
     <meta charset="utf-8">
-    <title>ТОЧНО НЕ СКАМ</title>
+    <title>Яицкин, пошел нахер</title>
   </head>
   <body>
-    <h1>Ваш IP-адрес: <span id="ip"></span><h1>
-          <script>
-      const ipElement = document.getElementById('ip');
-      async function getIpAddress() {
-        try {
-          const ip = await fetch('https://api.ipify.org?format=json')
-            .then(response => response.json())
-            .then(data => data.ip);
-          ipElement.textContent = ip;
-        } catch (error) {
-          console.error(error);
-          ipElement.textContent = 'Не удалось получить IP-адрес';
-        }
-      }
-      getIpAddress();
-    </script>
+    <h1>Яицкин, пошел нахер<h1>
   </body>
 </html>
